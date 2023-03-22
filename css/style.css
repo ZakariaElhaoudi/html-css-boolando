@@ -80,6 +80,10 @@ header, a {
     transition: opacity 0.3s ease-in-out;
 }
 
+.special{
+    width: 350px;
+}
+
 .product-img:hover .seconda-img {
     opacity: 1;
     cursor: pointer;
@@ -118,6 +122,10 @@ header, a {
     position: absolute;
     left: 50px;
     background-color: green;
+}
+
+.space{
+    left: 5px;
 }
 
 .prezzo {
