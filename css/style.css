@@ -5,12 +5,52 @@
     box-sizing: border-box;
 }
 
+
+img.{
+    max-width: 100%;
+}
 /* regole header  */
 header{
-    height: 100px;
+    height: 80px;
     width: 100%;
+    background-color: orangered;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 
 }
+
+header, a {
+    color: white;
+    text-decoration: none;
+}
+
+.conteiner-header-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px ;
+    font-size: 15px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+.img-logo{
+    text-align: center;
+}
+
+.img-logo img {
+    width: 25%;
+    line-height: 50%;
+    vertical-align: middle;
+
+}
+
 
 /* regole contenuto centrale  */
 
