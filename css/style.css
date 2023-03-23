@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-i{
+i, h2, h4{
     cursor: pointer;
 }
 
@@ -62,14 +62,15 @@ header, a {
 
 .product-col{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
     gap: 10px;
     padding-bottom: 30px;
 }
 
 .product-img{ 
     position: relative;
+    width: 400px;
 }
 
 .seconda-img{
@@ -80,17 +81,13 @@ header, a {
     transition: opacity 0.3s ease-in-out;
 }
 
-.special{
-    width: 350px;
-}
-
 .product-img:hover .seconda-img {
     opacity: 1;
     cursor: pointer;
 }
 
 .product-col img {
-    width: 350px;
+    max-width: 100%;
 }
 
 .hearts{
@@ -107,8 +104,14 @@ header, a {
     cursor: pointer;
 }
 
-.sconto, .sosten{
+.dati{
     position: absolute;
+    display: inline block;
+    left: 5px;
+    bottom: 150px;
+}
+
+.sconto, .sosten{
     bottom: 150px;
     left: 5px;
     background-color: red;
@@ -119,8 +122,7 @@ header, a {
 
 .sosten{
     display: inline-block;
-    position: absolute;
-    left: 50px;
+    left: 5px;
     background-color: green;
 }
 
@@ -139,8 +141,6 @@ header, a {
     text-decoration: line-through;
 }
 
-
-
 /* regole footer  */
 
 footer{
@@ -157,6 +157,3 @@ footer{
     padding: 15px 0;
 }
 
-
-
-/* DEBUG */
